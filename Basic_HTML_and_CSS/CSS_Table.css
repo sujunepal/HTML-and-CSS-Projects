@@ -1,0 +1,29 @@
+/* Styling for the table */
+table {
+  border-collapse: collapse;
+  width: 60%;
+  margin: 30px auto;
+  font-family: Arial, sans-serif;
+  background-color: #798b28; 
+  color: #333; 
+}
+
+/* Styling for table headers */
+th {
+  background-color: #b65656; 
+  border: 1px solid #df0a0a;
+  padding: 10px;
+  text-align: center;
+}
+
+/* Styling for table data cells */
+td {
+  border: 1px solid #4b18da; 
+  padding: 10px;
+  text-align: center;
+}
+
+/* Hover selector for table rows */
+tr:hover {
+  background-color: #b91010; 
+}
